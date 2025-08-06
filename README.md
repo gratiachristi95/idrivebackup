@@ -1,5 +1,3 @@
-Creating a GitHub README.md for a repository that provides Dockerfiles and a compose.yml to set up an environment for backing up files to IDrive using the CLI tool involves several steps. Here's a structured example:
-
 # IDrive Backup Environment Setup
 
 This repository provides a Docker-based solution to set up an environment for backing up files to IDrive using the IDrive CLI tool. This setup ensures that you can easily manage backups without needing to install the IDrive CLI directly on your host machine.
@@ -92,5 +90,3 @@ This project is licensed under the MIT License. See the LICENSE file for details
 - **Replace `yourusername` with your actual GitHub username.**
 - **Ensure that the Dockerfile and docker-compose.yml are correctly configured to include the IDrive CLI and any necessary environment variables.**
 - **Consider adding a LICENSE file to the repository if it doesn't already exist.**
-
-This README.md provides a comprehensive overview of the repository, setup instructions, and usage examples, making it easier for users to get started with the IDrive backup solution using Docker.
