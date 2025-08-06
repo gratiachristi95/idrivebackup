@@ -33,8 +33,8 @@ Before proceeding with the setup, ensure you have the following:
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/yourusername/idrive-docker.git
-   cd idrive-docker
+   git clone https://github.com/gratiachristi95/idrivebackup.git
+   cd idrivebackup
 Build the Docker Image:
 
 docker build -t idrive-backup .
