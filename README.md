@@ -44,7 +44,7 @@ docker run -d --name idrive-container idrive-backup
 Alternatively, you can use Docker Compose to start the container:
 
 docker-compose up -d
-Usage
+## Usage
 To perform backups, you need to interact with the IDrive CLI inside the running container. Here are some common commands:
 
 Initialize IDrive Account:
@@ -59,12 +59,12 @@ docker exec -it idrive-container idrive list
 Restore Files:
 
 docker exec -it idrive-container idrive restore /path/to/backup/files
-Configuration
+## Configuration
 You can customize the Docker setup by modifying the Dockerfile or docker-compose.yml. Here are some configuration options:
 
 Environment Variables: Set environment variables in the docker-compose.yml to configure the IDrive CLI.
 Volume Mounts: Use Docker volumes to mount local directories into the container for backup operations.
-Troubleshooting
+## Troubleshooting
 If you encounter issues during setup or operation, here are some troubleshooting steps:
 
 Check Docker Logs:
@@ -74,14 +74,14 @@ Verify IDrive Credentials: Ensure that your IDrive credentials are correct and t
 
 Network Issues: Check network connectivity between your host and the IDrive servers.
 
-Contributing
+## Contributing
 We welcome contributions to improve this repository. To contribute:
 
 Fork the repository.
 Create a new branch for your changes.
 Make your modifications.
 Submit a pull request.
-License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 
