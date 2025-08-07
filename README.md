@@ -34,12 +34,12 @@ Before proceeding with the setup, ensure you have the following:
 
    ```bash
    git clone https://github.com/gratiachristi95/idrivebackup.git
-   cd idrivebackup```
+   cd idrivebackup
 
 2. **Build the Docker Image:**
 
    ```bash
-docker build -t idrive-backup .```
+docker build -t idrive-backup .
 
 3. **Run the Docker Container:**
 
