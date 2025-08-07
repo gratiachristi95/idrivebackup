@@ -48,8 +48,7 @@ Before proceeding with the setup, ensure you have the following:
    ```bash
    docker run -d --name idrive-container idrive-backup
    ```
-
-Alternatively, you can use Docker Compose to start the container:
+    Or use Docker Compose:
 
    ```bash
    docker-compose up -d
