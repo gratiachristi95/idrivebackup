@@ -64,15 +64,24 @@ To perform backups, you need to interact with the IDrive CLI inside the running 
    docker exec -it idrive-container idrive init
    ```
 
-Backup Files:
+2. **Backup Files:**
 
-docker exec -it idrive-container idrive backup /path/to/local/files
-List Backups:
+   ```bash
+   docker exec -it idrive-container idrive backup /path/to/local/files
+   ```
 
-docker exec -it idrive-container idrive list
-Restore Files:
+3. **List Backups:**
 
-docker exec -it idrive-container idrive restore /path/to/backup/files
+   ```bash
+   docker exec -it idrive-container idrive list
+   ```
+
+4. **Restore Files:**
+
+   ```bash
+   docker exec -it idrive-container idrive restore /path/to/backup/files
+   ```
+
 ## Configuration
 You can customize the Docker setup by modifying the Dockerfile or docker-compose.yml. Here are some configuration options:
 
