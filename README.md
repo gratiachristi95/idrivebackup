@@ -35,16 +35,26 @@ Before proceeding with the setup, ensure you have the following:
    ```bash
    git clone https://github.com/gratiachristi95/idrivebackup.git
    cd idrivebackup
+   ```
 
 2. **Build the Docker Image:**
 
-docker build -t idrive-backup .
-Run the Docker Container:
+   ```bash
+   docker build -t idrive-backup .
+   ```
 
-docker run -d --name idrive-container idrive-backup
+3. **Run the Docker Container:**
+
+   ```bash
+   docker run -d --name idrive-container idrive-backup
+   ```
+
 Alternatively, you can use Docker Compose to start the container:
 
-docker-compose up -d
+   ```bash
+   docker-compose up -d
+   ```
+
 ## Usage
 To perform backups, you need to interact with the IDrive CLI inside the running container. Here are some common commands:
 
