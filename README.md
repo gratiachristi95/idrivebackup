@@ -58,9 +58,12 @@ Alternatively, you can use Docker Compose to start the container:
 ## Usage
 To perform backups, you need to interact with the IDrive CLI inside the running container. Here are some common commands:
 
-Initialize IDrive Account:
+1. **Initialize IDrive Account:**
 
-docker exec -it idrive-container idrive init
+   ```bash
+   docker exec -it idrive-container idrive init
+   ```
+
 Backup Files:
 
 docker exec -it idrive-container idrive backup /path/to/local/files
